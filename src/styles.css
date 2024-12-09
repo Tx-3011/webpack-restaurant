@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Joan&family=Yuji+Mai&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#ff430f;
+}
+
+#heading{
+    word-spacing: 100vw;
+    font-size: 128px;
+    font-family: "Yuji Mai";
+    font-weight: 50;
+}
+
+#content,
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#pizzaImage{
+    width: 535px;
+    height: 700px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+    background-color: #ff430f;
+    height: 100vh;
+}
+
+#right{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ff5627;
+    height: 100vh;
+
+}
+
+#orderBtn{
+    margin-top: 2rem;
+    width: 417px;
+    height: 80px;
+    border-radius: 30px;
+    background-color: #f45f35;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+    font-size: 40px;
+    font-family: 'Arima';
+    font-weight: 700;
+
+}
+
+
+#menuHead{
+    font-family: 'Arima';
+    font-size: 200px;
+    text-align: center;
+}
